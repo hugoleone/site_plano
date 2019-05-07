@@ -23,6 +23,8 @@
 
 <div id="middle">
     <form>
+        <h2>ENVIE SEU VÍDEO</h2>
+        <p>Ajude a contruir o plano estadual de Segurança Pública</p>
     	<fieldset class="grupo">
     	    <div class="campo">
     	        <label for="nome">NOME *</label>
@@ -46,5 +48,8 @@
     	        <input type="text" id="cidade" name="cidade" style="width: 20em" value="" />
     	    </div>
     	</fieldset>
+
+        <button class="botao">CARREGAR VÍDEO</button>
+        <button class="button">Button</button>
     </form>
 </div>

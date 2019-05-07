@@ -23,6 +23,8 @@
 
 <div id="middle">
 	<form>
+		<h2>ENVIE SUA SUGESTÃO</h2>
+		<p>Ajude a contruir o plano estadual de Segurança Pública</p>
 		<fieldset class="grupo">
 		    <div class="campo">
 		        <label for="nome">NOME *</label>
