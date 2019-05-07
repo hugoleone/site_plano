@@ -21,6 +21,10 @@
 	display: inline;
 }
 
+#menu ul li:hover {
+    opacity: 0.7;
+}
+
 #menu ul li a {
     padding: 2px 5px;
     display: inline-block;
@@ -29,7 +33,7 @@
 
 #pesquisar {
 	float: right;
-	padding: 5px;
+	padding: 10px;
 }
 
 #pesquisar input {
@@ -62,6 +66,19 @@
 
 #middle {
 	margin: 15px 0;
+}
+
+#upload {
+    /*max-height: 500px;*/
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-left: 15%;
+}
+
+#upload a {
+    font-size: 25px;
+    color: rgb(0,133,6);
+    font-weight: bold;
 }
 
 /* INÍCIO DA POSIÇÃO DA IMAGEM RESULTADOS */

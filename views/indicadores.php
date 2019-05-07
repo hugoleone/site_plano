@@ -20,3 +20,9 @@
 		<i class="fa fa-search"></i>
 	</div>	
 </div>
+
+<div id="upload">
+	<a target="_blank" href="#">Indicadores de Violência e Criminalidade.pdf</a>
+	</br>
+	<a target="_blank" href="../uploads/teste.doc">Indicadores de Violência e Criminalidade.doc</a>
+</div>
