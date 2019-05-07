@@ -1,3 +1,13 @@
+/* INÍCIO DO CABEÇALHO */
+
+.testeira img {
+    width: 100%;
+}
+
+/* FIM DO CABEÇALHO */
+
+/* INÍCIO DO MENU PRINCIPAL */
+
 #menu ul {
     padding:0px;
     margin:0px;
@@ -38,8 +48,12 @@
 }
 
 #menu img {
-	height: 80px;
+    height: 80px;
 }
+
+/* FIM DO MENU PRINCIPAL */
+
+/* INÍCIO DO CORPO */
 
 #middle img {
 	margin-top: 20px;
@@ -50,25 +64,31 @@
 	margin: 15px 0;
 }
 
-.testeira img {
-	width: 100%;
-}
+/* INÍCIO DA POSIÇÃO DA IMAGEM RESULTADOS */
 
 .container img {
 	margin-left: 10%;
 	margin-right: 10%;
 }
 
+/* FIM DA POSIÇÃO DA IMAGEM RESULTADOS */
 
-.rodape p {
-	text-align: center;
-	margin-top: -20px;
-	color: #ddd;
-	font-size: 8px;
+/* FIM DO CORPO */
+
+/* INÍCIO DO FORMULÁRIO */
+
+form {
+    margin-top: 100px;
+    margin-left: 10%;
 }
 
-.rodape img {
-	width: 100%;
+h2, p {
+    color: rgb(0,133,6);
+    font-weight: bold;
+}
+
+.posicao {
+    margin-bottom: 50px;
 }
 
 #botao {
@@ -113,24 +133,6 @@
     margin: 20px 0 5px 0;
 }
 
-
-
-/*Teste de css */
-
-form {
-    margin-top: 100px;
-    margin-left: 10%;
-}
-
-h2, p {
-    color: rgb(0,133,6);
-    font-weight: bold;
-}
-
-p {
-    margin-bottom: 50px;
-}
-
 .campo {
     margin-bottom: 2em;
 }
@@ -152,3 +154,25 @@ p {
     display: block;
     border-radius: 5px;
 }
+
+/* FIM DO FORMULÁRIO */
+
+/* INÍCIO DO RODAPÉ */
+
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+.rodape p {
+    text-align: center;
+    margin-top: -20px;
+    color: #ddd;
+    font-size: 8px;
+}
+
+.rodape img {
+    width: 100%;
+}
+
+/* FIM DO RODAPÉ */
