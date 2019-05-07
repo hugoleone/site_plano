@@ -28,28 +28,38 @@
     	<fieldset class="grupo">
     	    <div class="campo">
     	        <label for="nome">NOME *</label>
-    	        <input type="text" id="nome" name="nome" style="width: 20em" value="" />
+    	        <input type="text" id="nome" name="nome" style="width: 80em" value="" />
     	    </div>
     	</fieldset> 
 
     	<div class="campo">
     	    <label for="email">E-MAIL *</label>
-    	    <input type="text" id="email" name="email" style="width: 41em" value="" />
+    	    <input type="email" id="email" name="email" style="width: 40em" value="" />
     	</div>
 
     	<div class="campo">
     	    <label for="telefone">TELEFONE *</label>
-    	    <input type="text" id="telefone" name="telefone" style="width: 20em"  value="" />
+    	    <input type="text" id="telefone" name="telefone" style="width: 40em"  value="" />
     	</div>
 
     	<fieldset class="grupo">
     	    <div class="campo">
     	        <label for="cidade">CIDADE *</label>
-    	        <input type="text" id="cidade" name="cidade" style="width: 20em" value="" />
+    	        <input type="text" id="cidade" name="cidade" style="width: 40em" value="" />
     	    </div>
     	</fieldset>
 
-        <button class="botao">CARREGAR VÍDEO</button>
-        <button class="button">Button</button>
+        <button id="botao">CARREGAR VÍDEO</button>
+
+        <div class="campo">
+            <label id="termos" class="campo">TERMOS DE USO *</label>
+            <label class="campo">
+                <input type="checkbox" name="newsletter" value="1"> Li e concordo com os <a href="#">Termos de uso.</a>
+            </label>
+        </div>
     </form>
+
+    <div id="enviar">
+      <input type="submit" name="botao" value="ENVIAR MEU VÍDEO" class="botaoEnviar" />
+   </div>
 </div>
