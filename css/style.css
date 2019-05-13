@@ -6,58 +6,7 @@
 
 /* FIM DO CABEÇALHO */
 
-/* INÍCIO DO MENU PRINCIPAL */
-
-#menu ul {
-    padding:0px;
-    margin:0px;
-    list-style:none;
-    margin-top: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#menu ul li { 
-	display: inline;
-}
-
-#menu ul li:hover {
-    opacity: 0.7;
-}
-
-#menu ul li a {
-    padding: 2px 5px;
-    display: inline-block;
-    text-decoration: none;
-}
-
-#pesquisar {
-	float: right;
-	padding: 10px;
-}
-
-#pesquisar input {
-	padding: 5px;
-    border-radius: 5px;
-}
-
-#pesquisar i {
-    position: relative;
-    left: -30px;
-    top: 1px;
-    color: #aaa;
-    cursor:pointer;
-    width: 0;
-    font-size: 20px;
-}
-
-#menu img {
-    height: 80px;
-}
-
-/* FIM DO MENU PRINCIPAL */
-
-/* INÍCIO DO CORPO */
+/* MENU PRINCIPAL ESTÁ EM nav.css */
 
 #middle img {
 	margin-top: 20px;
@@ -117,6 +66,7 @@ h2, p {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  font-weight: bold;
   margin: 4px 2px;
   cursor: pointer;
 }
@@ -126,7 +76,7 @@ h2, p {
 }
 
 #enviar { 
-    text-align: center 
+    text-align: center;
 }
 
 .botaoEnviar{
@@ -137,9 +87,8 @@ h2, p {
     text-align: center;
     padding: 5px 20px;
     border: 1px solid #eee;
-    
-    
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .botaoEnviar:hover {

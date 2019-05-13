@@ -1,4 +1,4 @@
-<div id="menu">
+<!-- <div id="menu">
 	<div class="navbar-header">
 		<button type="button" style="margin-top: 25px" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu_lista" aria-expanded="false">
 			<span style="background-color: #9bbd46" class="icon-bar"></span>
@@ -20,9 +20,9 @@
 		<i class="fa fa-search"></i>
 	</div>	
 </div>
-
+ -->
 <div id="upload">
-	<a target="_blank" href="#">Indicadores de Violência e Criminalidade.pdf</a>
+	<a target="_blank" href="../uploads/teste.pdf">Indicadores de Violência e Criminalidade.pdf</a>
 	</br>
 	<a target="_blank" href="../uploads/teste.doc">Indicadores de Violência e Criminalidade.doc</a>
 </div>

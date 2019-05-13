@@ -1,4 +1,4 @@
-<div id="menu">
+<!-- <div id="menu">
 	<div class="navbar-header">
 		<button type="button" style="margin-top: 25px" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu_lista" aria-expanded="false">
 			<span style="background-color: #9bbd46" class="icon-bar"></span>
@@ -19,7 +19,7 @@
 		<input type="text" placeholder="O que você procura?" />
 		<i class="fa fa-search"></i>
 	</div>	
-</div>
+</div> -->
 
 <div id="middle">
     <form>
