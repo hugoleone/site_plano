@@ -22,5 +22,5 @@
 </div> -->
 
 <div class="container" id="middle">
-	<img src="../img/resultados.png">
+	<img src="img/resultados.png">
 </div>
