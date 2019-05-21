@@ -21,5 +21,5 @@
 	</div>	
 </div> -->
 <div id="middle">
-	<img src="img/banner.jpg">
+	<img src="img/novo_banner.jpg">
 </div>

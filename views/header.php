@@ -30,11 +30,11 @@
         </div>
         <div class="collapse navbar-collapse" id="menu_lista">
             <ul class="nav navbar-nav navbar-right" id="lista_menu">
-                <li class="item"><a class="link" href="#" onclick="mostrarAtivo(this);">O PLANO</a></li>
-                <li class="item"><a class="link" href="#" onclick="mostrarAtivo(this);">ENVIE SUA SUGESTÃO</a></li>
-                <li class="item"><a class="link" href="#" onclick="mostrarAtivo(this);">ENVIE SEU VÍDEO</a></li>
-                <li class="item"><a class="link" href="#" onclick="mostrarAtivo(this);">INDICADORES DE VIOLÊNCIA E CRIMINALIDADE</a></li>
-                <li class="item"><a class="link" href="#" onclick="mostrarAtivo(this);">RESULTADOS ALCANÇADOS</a></li>
+                <li class="item"><a class="link <?= $pagina == 'plano' ? 'active' : '' ?>" href="?i=plano">O PLANO</a></li>
+                <li class="item"><a class="link <?= $pagina == 'sugestao' ? 'active' : '' ?>" href="?i=sugestao">ENVIE SUA SUGESTÃO</a></li>
+                <li class="item"><a class="link <?= $pagina == 'video' ? 'active' : '' ?>" href="?i=video">ENVIE SEU VÍDEO</a></li>
+                <li class="item"><a class="link <?= $pagina == 'indicadores' ? 'active' : '' ?>" href="?i=indicadores">INDICADORES DE VIOLÊNCIA E CRIMINALIDADE</a></li>
+                <li class="item"><a class="link <?= $pagina == 'resultados' ? 'active' : '' ?>" href="?i=resultados">RESULTADOS ALCANÇADOS</a></li>
             </ul>
         </div>		
     </div>
